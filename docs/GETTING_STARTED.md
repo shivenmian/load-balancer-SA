@@ -21,8 +21,6 @@
 
   Upstream is used to sync your local folder with the main repo. So if I made changes to master on this repo, and you don't   have them on your own folder's master, you just simply do `git pull upstream master` on your own master. 
 
-You're done. Start working.
-
 ## Node Setup
 
 We'll be working on the MEAN stack, and will write the algos in ```node.js```. So you'll need to install node, npm and mongo to work. 
@@ -30,12 +28,14 @@ We'll be working on the MEAN stack, and will write the algos in ```node.js```. S
 1. Install node.js and npm from [here](https://nodejs.org/en/).
 2. Install mongoDB from [here](https://www.mongodb.com/download-center?jmp=nav#community)
 
-3. Go to the ```webapp``` directory in your own local folder (where the webapp code is located).
+## Project Setup
 
-4. Install dependencies.
+1. Go to the ```webapp``` directory in your own local folder (where the webapp code is located).
+
+2. Install dependencies.
 
 	```npm install```
 
-5. Start up the webapp to check it works:
+3. Start up the webapp to check it works (on ```localhost:3000```):
 
 	```node app.js```
