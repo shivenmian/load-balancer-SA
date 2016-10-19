@@ -3,7 +3,7 @@ An analysis of the efficiency of load balancing algorithms on MEAN stack webapps
 
 ## Getting Started
 
-**Before you start working**, it is imperative you know all that's written in [this doc](/GETTING_STARTED.md) so please go over it before doing anything else.
+**Before you start working**, it is imperative you do all that's written in [this doc](/docs/GETTING_STARTED.md) so please do what's written there, before moving ahead.
 
 ## Workflow (follow this strictly)
 
