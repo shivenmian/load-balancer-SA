@@ -24,4 +24,4 @@ We'll be submitting Pull Requests (PRs) for features. To do so:
 
 5. Go to https://github.com/shivenmian/load-balancer-SA while logged into your account. If you have pushed correctly, you'll see a message "You recently pushed branches. Create Pull Request". Create the pull request.
 
-6. If your pull request gets merged, go to the Parent Issue #2 and tick the box.
+6. If your pull request gets merged, go to the Parent Issue [#2](https://github.com/shivenmian/load-balancer-SA/issues/2) and tick the box.
