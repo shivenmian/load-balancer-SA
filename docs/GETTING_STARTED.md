@@ -29,3 +29,13 @@ We'll be working on the MEAN stack, and will write the algos in ```node.js```. S
 
 1. Install node.js and npm from [here](https://nodejs.org/en/).
 2. Install mongoDB from [here](https://www.mongodb.com/download-center?jmp=nav#community)
+
+3. Go to the ```webapp``` directory in your own local folder (where the webapp code is located).
+
+4. Install dependencies.
+
+	```npm install```
+
+5. Start up the webapp to check it works:
+
+	```node app.js```
