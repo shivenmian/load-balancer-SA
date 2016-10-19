@@ -1,6 +1,10 @@
 # load-balancer-SA
 An analysis of the efficiency of load balancing algorithms on MEAN stack webapps
 
+## Getting Started
+
+**Before you start working**, it is imperative you know all that's written in [this doc](/GETTING_STARTED.md) so please go over it before doing anything else.
+
 ## Workflow (follow this strictly)
 
 We'll be submitting Pull Requests (PRs) for features. To do so:
