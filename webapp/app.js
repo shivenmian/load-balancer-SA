@@ -60,7 +60,8 @@ mongoose.connection.on('error', () => {
 /**
  * Express configuration.
  */
-app.set('port', process.env.PORT || 3000);
+var portargs = process.argv.splice(2);
+app.set('port', portargs[0] || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use(expressStatusMonitor());
