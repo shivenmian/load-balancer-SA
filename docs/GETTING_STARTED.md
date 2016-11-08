@@ -47,7 +47,9 @@ We'll be working on the MEAN stack, and will write the algos in ```node.js```. S
 
 	```node round_robin.js <port-number>```
 	
-5. Start up the application.
+	Replace ```round_robin.js``` with the file of the algorithm you wish to test.
+	
+5. In a new terminal window (preferably multiple new terminal windows), start up instances of the application.
 
 	```node app.js```
 	
