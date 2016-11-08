@@ -19,7 +19,10 @@ const expressValidator = require('express-validator');
 const expressStatusMonitor = require('express-status-monitor');
 const sass = require('node-sass-middleware');
 const multer = require('multer');
+const seaport = require('seaport');
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
+
+var portlist = seaport.connect('localhost', 9090);
 
 /**
  * Load environment variables from .env file, where API keys and passwords are configured.
@@ -60,8 +63,7 @@ mongoose.connection.on('error', () => {
 /**
  * Express configuration.
  */
-var portargs = process.argv.splice(2);
-app.set('port', portargs[0] || 3000);
+app.set('port', portlist.register('sa-webapp'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use(expressStatusMonitor());
