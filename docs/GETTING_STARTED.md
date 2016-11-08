@@ -29,6 +29,8 @@ We'll be working on the MEAN stack, and will write the algos in ```node.js```. S
 2. Update npm:
 	```npm install -g npm@latest```
 3. Install mongoDB from [here](https://www.mongodb.com/download-center?jmp=nav#community)
+4. Install seaport:
+	```npm install -g seaport```
 
 ## Project Setup
 
@@ -38,9 +40,14 @@ We'll be working on the MEAN stack, and will write the algos in ```node.js```. S
 
 	```npm install```
 
-3. Start up the application on a port (additional parameter, defaulted to 3000) 
+3. Start up seaport.
+	```seaport listen 9090 &```
 
-	```node app.js <port-number>```
+4. Start up the load balancer (`<port-number>` defaulted to 8000)
 
-	i.e if you do ```node app.js 6050```, then check ```localhost:6050``` to see if the app runs, and if you do ```node app.js``` then check ```localhost:3000```.
+	```node round_robin.js <port-number>```
+	
+5. Start up the application.
 
+	```node app.js```
+	
